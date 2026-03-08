@@ -1,11 +1,11 @@
 #!/bin/bash
 #==============================================
-# OppsClaw 一键安装脚本
+# oopsclaw 一键安装脚本
 #==============================================
 
 set -e
 
-echo "🤖 OppsClaw 安装向导"
+echo "🤖 oopsclaw 安装向导"
 echo "===================="
 
 # 颜色
@@ -126,7 +126,7 @@ main() {
     setup_services
     
     echo -e "\n${GREEN}======================================${NC}"
-    echo -e "${GREEN}🎉 OppsClaw 安装完成!${NC}"
+    echo -e "${GREEN}🎉 oopsclaw 安装完成!${NC}"
     echo -e "${GREEN}======================================${NC}"
     echo ""
     echo "📖 使用说明:"
@@ -135,7 +135,7 @@ main() {
     echo "  • 查看日志: tail -f ~/.iflow/guardian/logs/guardian-event.log"
     echo ""
     echo "📁 文件位置: ~/.iflow/guardian/"
-    echo "📚 文档: https://github.com/DuanZGit/OppsClaw"
+    echo "📚 文档: https://github.com/DuanZGit/oopsclaw"
     echo ""
 }
 
