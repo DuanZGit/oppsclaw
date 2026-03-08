@@ -1,21 +1,20 @@
-<<<<<<< HEAD
-# OppsClaw - OpenClaw 智能守护者
+# oopsclaw - OpenClaw 智能守护者
 
 > 🤖 AI 驱动的 OpenClaw 故障自动修复与自主进化系统
 
-[![GitHub](https://img.shields.io/badge/GitHub-OppsClaw-green)](https://github.com/DuanZGit/OppsClaw)
-[![版本](https://img.shields.io/badge/版本-v1.0.0-blue)](https://github.com/DuanZGit/OppsClaw)
+[![GitHub](https://img.shields.io/badge/GitHub-oopsclaw-green)](https://github.com/DuanZGit/oopsclaw)
+[![版本](https://img.shields.io/badge/版本-v1.0.0-blue)](https://github.com/DuanZGit/oopsclaw)
 [![许可证](https://img.shields.io/badge/许可证-MIT-green)](LICENSE)
 
 ## 🌟 名字由来
 
-**OppsClaw** = **Oops** + **OpenClaw** + **Ops**
+**oopsclaw** = **Oops** + **OpenClaw** + **Ops**
 
-- **Oops**: 当 OpenClaw 又双叒叕不小心把自己折腾坏的时候，OppsClaw 来救场！😄
+- **Oops**: 当 OpenClaw 又双叒叕不小心把自己折腾坏的时候，oopsclaw 来救场！😄
 - **Ops**: 谐音运维 (Operations)，寓意自动化运维守护者
 - **Claw**: 继承 OpenClaw 的"蟹钳"精神，牢牢抓住所有故障！
 
-> "Oops! OpenClaw 又坏了？" —— "别怕，我有 OppsClaw！"
+> "Oops! OpenClaw 又坏了？" —— "别怕，我有 oopsclaw！"
 
 ## ✨ 特性
 
@@ -36,12 +35,10 @@
 - **知识积累**: 故障指纹库 + 历史经验，持续学习优化
 - **自主进化**: 评估修复效果，自动优化 Agent Prompt
 - **多渠道通知**: 支持飞书等渠道实时推送告警
->>>>>>> 1815a9334ba873e54be1535c8b1d8efff14b4a03
 
 ## 🏗️ 架构
 
 ```
-<<<<<<< HEAD
 ┌─────────────────────────────────────────────────────────────┐
 │                        故障检测层                            │
 │              systemd OnFailure (Gateway 故障时触发)          │
@@ -74,17 +71,17 @@
 
 ```bash
 # 完整安装
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/DuanZGit/OppsClaw/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/DuanZGit/oopsclaw/main/install.sh)"
 ```
 
 或手动安装：
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/DuanZGit/OppsClaw.git ~/.OppsClaw
+git clone https://github.com/DuanZGit/oopsclaw.git ~/.oopsclaw
 
 # 2. 运行安装脚本
-cd ~/.OppsClaw && bash install.sh
+cd ~/.oopsclaw && bash install.sh
 =======
 ┌─────────────────────────────────────────────────────────┐
 │                    故障检测层                             │
@@ -132,14 +129,12 @@ guardian/
 ├── scores/              # 评分数据
 ├── logs/                # 运行日志
 └── openclaw-gateway.service  # systemd 服务配置
->>>>>>> 1815a9334ba873e54be1535c8b1d8efff14b4a03
 ```
 
 ## 🚀 快速开始
 
 ### 前置要求
 
-<<<<<<< HEAD
 - [OpenClaw](https://github.com/openclaw) 已安装并运行
 - [iFlow CLI](#iflow-安装) 已安装
 - systemd 环境
@@ -148,10 +143,10 @@ guardian/
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/DuanZGit/OppsClaw.git ~/.OppsClaw
+git clone https://github.com/DuanZGit/oopsclaw.git ~/.oopsclaw
 
 # 2. 运行安装脚本
-cd ~/.OppsClaw && bash install.sh
+cd ~/.oopsclaw && bash install.sh
 ```
 
 安装脚本会自动：
@@ -164,10 +159,10 @@ cd ~/.OppsClaw && bash install.sh
 
 ```bash
 # 手动运行守护者
-bash ~/.OppsClaw/guardian-event.sh
+bash ~/.oopsclaw/guardian-event.sh
 
 # 手动运行进化优化
-bash ~/.OppsClaw/guardian-evolve.sh
+bash ~/.oopsclaw/guardian-evolve.sh
 ```
 
 ## 🔧 iFlow 介绍与安装
@@ -236,7 +231,7 @@ nano ~/.iflow/settings.json
 ## 📁 项目结构
 
 ```
-OppsClaw/
+oopsclaw/
 ├── install.sh              # 一键安装脚本
 ├── README.md              # 本文档
 ├── guardian-event.sh      # 故障修复核心脚本
@@ -323,12 +318,10 @@ bash ~/.iflow/guardian/guardian-evolve.sh
 
 ```bash
 # 守护者事件日志
->>>>>>> 1815a9334ba873e54be1535c8b1d8efff14b4a03
 tail -f ~/.iflow/guardian/logs/guardian-event.log
 
 # 修复历史
 cat ~/.iflow/guardian/logs/repair_history.log
-<<<<<<< HEAD
 
 # 状态记录
 cat ~/.iflow/monitor/knowledge/lessons_*.md
@@ -388,20 +381,17 @@ iflow -p "你好"
 3. **评估**: 记录修复结果和时间
 4. **进化**: guardian-evolve-agent 评估并优化
 5. **学习**: 更新知识库和 Prompt
->>>>>>> 1815a9334ba873e54be1535c8b1d8efff14b4a03
 
 ## 📝 许可证
 
 MIT License
 
-<<<<<<< HEAD
 ## 🔗 相关链接
 
 - [OpenClaw 官网](https://openclaw.ai)
 - [iFlow 官网](https://iflow.cn)
-- [项目地址](https://github.com/DuanZGit/OppsClaw)
+- [项目地址](https://github.com/DuanZGit/oopsclaw)
 =======
 ## 👤 作者
 
 OpenClaw/iFlow Community
->>>>>>> 1815a9334ba873e54be1535c8b1d8efff14b4a03
